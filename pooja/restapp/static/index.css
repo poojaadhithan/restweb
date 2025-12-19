@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+
+    /* Background image */
+    background-image: url("bground.png"); /* put your image name here */
+    background-size: cover;        /* makes image cover full screen */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* prevents repeating */
+    background-attachment: fixed;  /* nice scrolling effect */
+
+    color: #0a3b37;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #00813e, #8b0048, #c21807);
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #062b0d;
+    text-align: center;
+}
+
+nav a {
+    color: #00ff80;
+    text-decoration: none;
+    margin: 0 16px;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ffd700;
+    color: #2b0606;
+    border-radius: 6px;
+}
+
+/* Section */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Banner */
+.banner {
+    width: 80%;
+    max-width: 420px;
+    border-radius: 12px;
+}
+
+/* Headings */
+h2 {
+    color: #2b0606;
+    letter-spacing: 1px;
+}
+
+/* Grid */
+.menu-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Cards */
+.card {
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    border: 3px solid #8b0000;
+}
+
+.card img {
+    width: 95px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+/* Contact */
+.contact-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 14px;
+    max-width: 750px;
+    margin: auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
